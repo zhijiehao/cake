@@ -1,0 +1,33 @@
+#Rproducts{
+    width: 1200px;
+    height: 500px;
+    position: relative;
+}
+#Rproducts>.single-product{
+    position: absolute;
+    width: 300px;
+    background-color: #fff3f8;
+}
+.Rproducts  img{
+    width:100%;/*ͼƬ�Ŀ������li�ı�  ͼƬ�ĸ߶�Ҳ���ſ������Ӧ�ĸı�*/
+}
+.arrow{
+    /*opacity: 0;*/
+    display: none;
+}
+.prev,.next{
+    width:76px;
+    height:112px;
+    position: absolute;
+    top:50%;
+    margin-top:-56px;
+    background: url(../images/prev.png) no-repeat;
+    z-index: 99;
+}
+.prev{
+    left: 0;
+}
+.next{
+    right:0;
+    background-image: url(../images/next.png);
+}
